@@ -26,6 +26,29 @@ h1 {
   color: rgb(25, 0, 95);
 }
 
+table,
+td {
+  border: 1px solid rgb(25, 0, 95);
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 40px;
+}
+
+.secondrow,
+.lastrow {
+  text-align: center;
+}
+
+table {
+  width: 600px;
+  margin: auto;
+  color: rgb(172, 113, 228);
+  table-layout: fixed;
+}
+
 nav li {
   display: inline;
   border-right: 1px solid rgb(238, 238, 238);
@@ -106,4 +129,9 @@ ul {
 
 .locations ol {
   color: rgb(25, 0, 95);
+}
+
+#city-nickname {
+  font-family: cursive;
+  color: rgb(90, 90, 90);
 }
